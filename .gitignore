@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual envs
+venv/
+.venv/
+
+# Secrets / local env
+.env
+
+# Local tool state
+.deepeval/
+.deepteam/
+
+# Vector DB / runtime artifacts
+chroma_db/
+
+# Excel temporary lock files
+~$*.xlsx
+**/~$*.xlsx
+data/~$*.xlsx
+
+# Generated reports
+data/*results*.csv
+data/*results*.xlsx
+data/security_testing_report.xlsx
+
